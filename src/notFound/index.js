@@ -6,7 +6,7 @@ const NotFound = () => {
     <>
       <p>It seems that we don't have such a page.</p>
       <p>
-        Please <Link to="/">visit the home page</Link>
+        Please <Link to="/type-racer">visit the home page</Link>
       </p>
     </>
   );

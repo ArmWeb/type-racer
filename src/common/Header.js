@@ -5,7 +5,7 @@ const Header = props => {
   const logout = () => {
     ssLogout();
 
-    props.history.push("/login");
+    props.history.push("/type-racer/login");
   };
   return (
     <header className="mainHeader">

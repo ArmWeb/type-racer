@@ -6,7 +6,7 @@ import { checkLogin } from "../helpers/checkLogin";
 
 const RedirectExistingUser = props => {
   if (props.manualRedirect) {
-    return <Redirect to="/" />;
+    return <Redirect to="/type-racer" />;
   }
 
   let userData = ssGetUser();
@@ -14,7 +14,7 @@ const RedirectExistingUser = props => {
   if (userData) {
     const { name, binId } = userData;
     if (checkLogin(name, binId)) {
-      return <Redirect to="/" />;
+      return <Redirect to="/type-racer" />;
     }
   }
   return null;

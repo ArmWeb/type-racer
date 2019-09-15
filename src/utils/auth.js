@@ -18,7 +18,7 @@ export default ExtendComponent => {
     }
 
     if (redirect) {
-      return <Redirect to="/login" />;
+      return <Redirect to="/type-racer/login" />;
     }
 
     return <ExtendComponent {...props} />;

@@ -13,7 +13,7 @@ import { useInterval } from "../helpers/interval.js";
 import { calculateWPM, calculateProgress } from "../helpers/calcs";
 import { generateHistoryData } from "./userHistoryHelper";
 
-const SECONDS = 10;
+const SECONDS = 180;
 
 const TypeRacer = memo(props => {
   const { globalLoading, notifyHistoryUpdated } = props;

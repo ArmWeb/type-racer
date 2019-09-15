@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba16900c7b1a2989fd88991663c92436",
+    "revision": "1a63e19f59b4a66964bd7d81d1b52e4c",
     "url": "/type-racer/index.html"
   },
   {
-    "revision": "4ad807747a14c09c60dc",
+    "revision": "a977dd3b2a0fff4b5f74",
     "url": "/type-racer/static/css/main.47bdf00f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/type-racer/static/js/2.7daca264.chunk.js"
   },
   {
-    "revision": "4ad807747a14c09c60dc",
-    "url": "/type-racer/static/js/main.eaa0c088.chunk.js"
+    "revision": "a977dd3b2a0fff4b5f74",
+    "url": "/type-racer/static/js/main.f112ab85.chunk.js"
   },
   {
     "revision": "44b7da38003c2193a08b",
