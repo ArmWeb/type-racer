@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import "assets/styles/flex-mixins";
+@import "assets/styles/media-mixin";
+@import "assets/styles/variables";
+
+body {
+  background: $athens-gray-approx;
+  font-family: "Lato", sans-serif;
+}
+.App {
+  margin: 0 auto;
+  text-align: center;
+  @include respond-to(mobile) {
+    width: 100%;
+  }
+  @include respond-to(tablet) {
+    width: 75%;
+  }
+  @include respond-to(desktop) {
+    width: 50%;
+  }
+}
+
+.input {
+  max-width: 100%;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid $blue-solid;
+}
+
+.input-danger {
+  background: $radical-red-solid;
+}
+
+.input-default {
+  background: $white-solid;
+}
+
+.text-danger {
+  color: $radical-red-solid;
+}
+
+.text-success {
+  color: $green-solid;
+}
+
+.text-default {
+  color: $black-solid;
+}
+
+.btn {
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.btn-default {
+  background-color: $blue-solid;
+  color: $white-solid;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.defaultBox {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px $iron-approx;
+  padding: 15px;
+}
+
+.historyItem {
+  margin: 10px 0;
+}
+
+.historyStats {
+  @include flexbox();
+  @include justify-content(space-evenly);
+  @include flex-wrap(wrap);
+}
+
+.game {
+  margin-bottom: 20px;
+  min-height: 230px;
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+  @include flex-direction(column);
+}
+
+.loadingWrapper {
+  opacity: 0.5;
+}
+
+.mainHeader {
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(space-between);
+  @include flex-wrap(wrap);
+}
+
+.loginForm form {
+  @include flexbox();
+  @include flex-direction(column);
+  @include align-items(center);
+
+  button,
+  label {
+    margin: 5px 0;
+  }
+}
