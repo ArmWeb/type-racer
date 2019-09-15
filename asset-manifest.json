@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f61a5c6.chunk.css",
-    "main.js": "/static/js/main.dbff5c16.chunk.js",
-    "main.js.map": "/static/js/main.dbff5c16.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.6b9d3bfe.js",
-    "runtime~main.js.map": "/static/js/runtime~main.6b9d3bfe.js.map",
-    "static/js/2.7daca264.chunk.js": "/static/js/2.7daca264.chunk.js",
-    "static/js/2.7daca264.chunk.js.map": "/static/js/2.7daca264.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fa992ca634d22083e0af8dcedebd3c13.js": "/precache-manifest.fa992ca634d22083e0af8dcedebd3c13.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8f61a5c6.chunk.css.map": "/static/css/main.8f61a5c6.chunk.css.map"
+    "main.css": "/type-racer/static/css/main.8f61a5c6.chunk.css",
+    "main.js": "/type-racer/static/js/main.bd207a49.chunk.js",
+    "main.js.map": "/type-racer/static/js/main.bd207a49.chunk.js.map",
+    "runtime~main.js": "/type-racer/static/js/runtime~main.bdbb1d63.js",
+    "runtime~main.js.map": "/type-racer/static/js/runtime~main.bdbb1d63.js.map",
+    "static/js/2.7daca264.chunk.js": "/type-racer/static/js/2.7daca264.chunk.js",
+    "static/js/2.7daca264.chunk.js.map": "/type-racer/static/js/2.7daca264.chunk.js.map",
+    "index.html": "/type-racer/index.html",
+    "precache-manifest.9eaf262db9ba81254cb52a9d6b02805f.js": "/type-racer/precache-manifest.9eaf262db9ba81254cb52a9d6b02805f.js",
+    "service-worker.js": "/type-racer/service-worker.js",
+    "static/css/main.8f61a5c6.chunk.css.map": "/type-racer/static/css/main.8f61a5c6.chunk.css.map"
   }
 }
