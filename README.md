@@ -7,10 +7,10 @@ https://armweb.github.io/type-racer/
 
 ## Login credentials
 
-`Login: User1`
+`Login: user1`
 `Password: 123`
 
-`Login: User2`
+`Login: user2`
 `Password: 123`
 
 
