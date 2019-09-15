@@ -94,7 +94,7 @@ body {
 .mainHeader {
   @include flexbox();
   @include align-items(center);
-  @include justify-content(space-between);
+  @include justify-content(space-around);
   @include flex-wrap(wrap);
 }
 

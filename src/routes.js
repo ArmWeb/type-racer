@@ -8,10 +8,10 @@ import Header from "./common/Header";
 
 export default (
   <Router>
-    <Route path="/" component={Header} />
+    <Route path="/type-racer" component={Header} />
     <Switch>
-      <Route exact path="/" component={auth(Home)} />
-      <Route path="/login" component={LoginContainer} />
+      <Route exact path="/type-racer" component={auth(Home)} />
+      <Route path="/type-racer/login" component={LoginContainer} />
       <Route component={NotFound} />
     </Switch>
   </Router>
